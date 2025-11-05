@@ -1,12 +1,17 @@
 [
-  "temperature",
-  "humidity",
-  "AC",
-  "Labs",
-  "AHU",
-  "Servers",
+  "Year",
+  "Total_Area_ft2",
+  "HVAC_Area_ft2",
+  "Avg_Temp_C",
+  "Avg_Humidity_%",
+  "Occupancy_Encoded",
+  "Special_Lab",
+  "Special_AC",
+  "Special_Servers",
+  "dining",
   "educational",
-  "administration",
+  "adminstration",
   "residential",
-  "dining"
+  "Special_AHU"
 ]
+

@@ -35,7 +35,7 @@ def find_col(possible_names):
     return None
 
 # probable columns (adjust if your excel uses other names)
-COL_BUILDING = find_col(["Building_Name", "building_name", "Building", "building", "Name"])
+COL_BUILDING = find_col(["Category", "Building_Name", "building_name", "Building", "building", "Name"])
 COL_CLUSTER = find_col(["Cluster_ID", "cluster_id", "Cluster", "cluster"])
 COL_TOTAL_AREA = find_col(["Total_Area_ft2", "total_area_ft2", "TotalArea_ft2"])
 COL_HVAC_AREA = find_col(["HVAC_Area_ft2", "hvac_area_ft2"])
